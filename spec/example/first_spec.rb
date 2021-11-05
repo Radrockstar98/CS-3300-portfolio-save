@@ -14,12 +14,6 @@ RSpec.describe "The math below is right..." do
   end
 end
 
-Rspec.describe "The math..." do
-  it "should equal 3" do
-    expect(1+2).to eq(3)
-  end
-end
-
 require "rails_helper"
 
 RSpec.describe "hello spec" do
