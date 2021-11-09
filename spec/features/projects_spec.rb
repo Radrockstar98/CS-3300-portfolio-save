@@ -1,9 +1,9 @@
 require 'rails_helper'
-# this is for naming a new project and it will get that name and store it
+# this is for testing to see if a new project has a description it will get that name and store it
 RSpec.feature "Projects", type: :feature do
   context "Create new project" do # to create a new project
     before(:each) do # before creating make a new project path
-      visit new_project_path
+      visit new_project_path # vist the new project path
       within("form") do # within the form 
         fill_in "Title", with: "Test title" # fill in the title of the project with what the user named it
       end
