@@ -7,7 +7,7 @@ RSpec.describe "The math below is right..." do
 end
 
 require "rails_helper"
-# test to see if the rspec is working by testing a string  is equal to an empty string, here it should pass
+
 RSpec.describe "hello spec" do
   # ...
   describe String do

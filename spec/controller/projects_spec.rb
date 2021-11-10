@@ -1,5 +1,4 @@
 require "rails_helper"
-
 # this will describe an index for a project and then tell the user which index it is and what its index is
 RSpec.describe ProjectsController, type: :controller do
   context "GET #index" do # this will get the index value of the project (think which number it was to be created)
